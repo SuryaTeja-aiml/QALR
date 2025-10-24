@@ -4,6 +4,12 @@
 
 The square of the sum of two given natural numbers is 784, while the product of the two given numbers is 192. Find the positive difference between the squares of these two numbers.
 
+**Options:**
+- [ ] 112
+- [ ] 122
+- [ ] 400
+- [ ] 512
+
 ### Solution:
 
 **Given:**
@@ -20,11 +26,19 @@ $$a - b = 4$$
 **Step 3:** Find $a^2 - b^2$
 $$a^2 - b^2 = (a + b)(a - b) = 28 \times 4 = \boxed{112}$$
 
+**Correct Answer: 112**
+
 ---
 
 ## **Question 2: Divisibility of Sum of Powers**
 
-Determine what $6^{25} + 6^{26} + 6^{27} + 6^{28}$ is divisible by.
+$6^{25} + 6^{26} + 6^{27} + 6^{28}$ is divisible by:
+
+**Options:**
+- [ ] 259
+- [ ] 254
+- [ ] 255
+- [ ] 256
 
 ### Solution:
 
@@ -39,13 +53,19 @@ $$6^{25} \times 259$$
 
 The expression is divisible by $\boxed{259}$
 
+**Correct Answer: 259**
+
 ---
 
 ## **Question 3: Largest 5-Digit Number Divisible by 88**
 
-Find the largest five-digit number exactly divisible by 88.
+The largest five digit number exactly divisible by 88 is:
 
-**Options:** 99984, 99990, 99968, 99978
+**Options:**
+- [ ] 99984
+- [ ] 99990
+- [ ] 99968
+- [ ] 99978
 
 ### Solution:
 
@@ -61,13 +81,19 @@ Find the largest five-digit number exactly divisible by 88.
 
 **Answer:** $\boxed{99968}$
 
+**Correct Answer: 99968**
+
 ---
 
 ## **Question 4: Number Divisible by 7**
 
-Which number among 24963, 24973, 24983, and 24993 is divisible by 7?
+Which number among 24963, 24973, 24983 and 24993 is divisible by 7?
 
-**Options:** 24973, 24963, 24993, 24983
+**Options:**
+- [ ] 24973
+- [ ] 24963
+- [ ] 24993
+- [ ] 24983
 
 ### Solution:
 
@@ -80,11 +106,19 @@ Using the **divisibility rule for 7**: Double the last digit and subtract from t
 
 **Answer:** $\boxed{24983}$
 
+**Correct Answer: 24983**
+
 ---
 
 ## **Question 5: Missing Digit for Divisibility by 18**
 
 An 11-digit number 7823326867X is divisible by 18. What is the value of X?
+
+**Options:**
+- [ ] 2
+- [ ] 6
+- [ ] 8
+- [ ] 4
 
 ### Solution:
 
@@ -101,13 +135,19 @@ An 11-digit number 7823326867X is divisible by 18. What is the value of X?
 
 **Answer:** $\boxed{2}$
 
+**Correct Answer: 2**
+
 ---
 
 ## **Question 6: Finding the Dividend**
 
-In a division sum, the divisor is 13 times the quotient and 6 times the remainder. If the remainder is 39, find the dividend.
+In a division sum, the divisor is 13 times the quotient and 6 times the remainder. If the remainder is 39, then the dividend is:
 
-**Options:** 4800, 4576, 4251, 4240
+**Options:**
+- [ ] 4800
+- [ ] 4576
+- [ ] 4251
+- [ ] 4240
 
 ### Solution:
 
@@ -121,11 +161,19 @@ $$234 = 13 \times \text{quotient} \Rightarrow \text{quotient} = 18$$
 $$\text{Dividend} = \text{Divisor} \times \text{Quotient} + \text{Remainder}$$
 $$= 234 \times 18 + 39 = 4212 + 39 = \boxed{4251}$$
 
+**Correct Answer: 4251**
+
 ---
 
 ## **Question 7: Finding Digits for Divisibility by 72**
 
-If the 8-digit number 789x531y is divisible by 72, find the value of $(5x - 3y)$.
+If the 8-digit number 789x531y is divisible by 72, then the value of (5x - 3y) is:
+
+**Options:**
+- [ ] 0
+- [ ] 2
+- [ ] -1
+- [ ] 1
 
 ### Solution:
 
@@ -144,11 +192,19 @@ If the 8-digit number 789x531y is divisible by 72, find the value of $(5x - 3y)$
 **Step 3:** Calculate $(5x - 3y)$
 $$5(1) - 3(2) = 5 - 6 = \boxed{-1}$$
 
+**Correct Answer: -1**
+
 ---
 
 ## **Question 8: Remainder After Multiplication**
 
-A number n when divided by 7 leaves remainder 3. When 6 times the number is divided by 7, what is the remainder?
+A integer n is divided by 7 leaves remainder 3. When the 6 times of the number is divided by 7, the remainder is:
+
+**Options:**
+- [ ] 1
+- [ ] 2
+- [ ] 4
+- [ ] 0
 
 ### Solution:
 
@@ -162,11 +218,19 @@ $$18 ÷ 7 = 2 \text{ remainder } 4$$
 
 **Answer:** $\boxed{4}$
 
+**Correct Answer: 4**
+
 ---
 
 ## **Question 9: Count of Numbers Divisible by 13**
 
-How many numbers between 800 and 2000 are divisible by 13?
+How many numbers 800 to 2000 are divisible by 13?
+
+**Options:**
+- [ ] 90
+- [ ] 92
+- [ ] 93
+- [ ] 91
 
 ### Solution:
 
@@ -179,11 +243,19 @@ $$2000 ÷ 13 ≈ 153.84 \Rightarrow \text{Last} = 13 \times 153 = 1989$$
 **Step 3:** Count using formula
 $$\text{Count} = \frac{1989 - 806}{13} + 1 = \frac{1183}{13} + 1 = 91 + 1 = \boxed{92}$$
 
+**Correct Answer: 92**
+
 ---
 
 ## **Question 10: Finding a Fraction**
 
-By adding 3 and 5 to the numerator and denominator of a fraction respectively, it becomes 2/3. If 1 is subtracted from the numerator and 3 is added to the denominator, it becomes 2/5. Find the original fraction.
+By adding 3 and 5 in numerator and denominator of a fraction it becomes 2/3. If 1 and 3 are subtracted and added from numerator and denominator respectively it becomes 2/5 find the fraction?
+
+**Options:**
+- [ ] 5/7
+- [ ] 6/7
+- [ ] 7/6
+- [ ] 7/5
 
 ### Solution:
 
@@ -205,11 +277,19 @@ $$\text{From (1): } 15 - 2y = 1 \Rightarrow y = 7$$
 
 **Answer:** $\boxed{\frac{5}{7}}$
 
+**Correct Answer: 5/7**
+
 ---
 
 ## **Question 11: Sum of Numbers in a Ratio**
 
-Two positive numbers are in the ratio 8:13. If the sum of their squares is 2097, find the sum of the two numbers.
+Two positive numbers are in the ratio 8 : 13. If the sum of their squares is 2097, then the sum of the two numbers is:
+
+**Options:**
+- [ ] 63
+- [ ] 64
+- [ ] 65
+- [ ] 53
 
 ### Solution:
 
@@ -229,11 +309,19 @@ $$k^2 = 9 \Rightarrow k = 3$$
 **Step 4:** Sum
 $$24 + 39 = \boxed{63}$$
 
+**Correct Answer: 63**
+
 ---
 
 ## **Question 12: Count Two-Digit Numbers**
 
-How many two-digit numbers are divisible by 3 or 5?
+How many two digit numbers are divisible by 3 or 5?
+
+**Options:**
+- [ ] 41
+- [ ] 48
+- [ ] 42
+- [ ] 40
 
 ### Solution:
 
@@ -249,13 +337,19 @@ How many two-digit numbers are divisible by 3 or 5?
 **Step 4:** Inclusion-Exclusion Principle
 $$30 + 18 - 6 = \boxed{42}$$
 
+**Correct Answer: 42**
+
 ---
 
 ## **Question 13: Number NOT Divisible by 150**
 
-Which of the following numbers is NOT divisible by 150?
+Which of the following numbers is not divisible by 150?
 
-**Options:** 320550, 201300, 463750, 333300
+**Options:**
+- [ ] 320550
+- [ ] 201300
+- [ ] 463750
+- [ ] 333300
 
 ### Solution:
 
@@ -268,11 +362,19 @@ Which of the following numbers is NOT divisible by 150?
 
 **Answer:** $\boxed{463750}$
 
+**Correct Answer: 463750**
+
 ---
 
 ## **Question 14: Finding Digits for Divisibility by 72**
 
-If a 10-digit number 5432y1749x is divisible by 72, what is the value of $(5x - 4y)$?
+If a 10-digit number 5432y1749x is divisible by 72, then what is the value of (5x - 4y)?
+
+**Options:**
+- [ ] 14
+- [ ] 9
+- [ ] 15
+- [ ] 10
 
 ### Solution:
 
@@ -290,11 +392,19 @@ If a 10-digit number 5432y1749x is divisible by 72, what is the value of $(5x - 
 **Step 3:** Calculate $(5x - 4y)$
 $$5(6) - 4(4) = 30 - 16 = \boxed{14}$$
 
+**Correct Answer: 14**
+
 ---
 
 ## **Question 15: Two-Digit Number with Inverted Property**
 
-A two-digit number has digit sum 5. If 10 times the tens digit plus 4 times the units digit equals the inverted number, find the number.
+There is a number of two digits the sum of whose digits is 5, and if 10 times the digit in the place of tens be added to 4 times the digit in the place of units, the number will be inverted. Then the number is:
+
+**Options:**
+- [ ] 43
+- [ ] 41
+- [ ] 23
+- [ ] 32
 
 ### Solution:
 
@@ -315,11 +425,19 @@ $$y = 3$$
 
 **Answer:** $\boxed{23}$
 
+**Correct Answer: 23**
+
 ---
 
 ## **Question 16: Society Subscription Problem**
 
-A society collects money through subscriptions. The total collected is 720 currency notes of Rs. 1000. Each person subscribes as many rupees as twice the number of subscribers. Find the number of subscribers.
+I collected some money by raising subscription for opening a society. If the whole amount collected by 720 currency notes of Rs. 1000 denomination and each person subscribed as many rupees as twice the number of subscribers, then find the number of subscribers.
+
+**Options:**
+- [ ] 650
+- [ ] 550
+- [ ] 500
+- [ ] 600
 
 ### Solution:
 
@@ -336,11 +454,19 @@ $$2x^2 = 720,000$$
 $$x^2 = 360,000$$
 $$x = \sqrt{360,000} = \boxed{600}$$
 
+**Correct Answer: 600**
+
 ---
 
 ## **Question 17: Simplify Complex Expression**
 
-Simplify: $264 - [142 - \{75 + (38 - (\frac{5}{4} + \frac{11}{4}))\}]$
+Simplify: $264 - [ 142 - \{ 75 + ( 38 - ( \frac{5}{4} + \frac{11}{4} ) ) \} ]$
+
+**Options:**
+- [ ] 234
+- [ ] 230
+- [ ] 232
+- [ ] 231
 
 ### Solution:
 
@@ -359,11 +485,19 @@ $$142 - 109 = 33$$
 **Step 5:** Final
 $$264 - 33 = \boxed{231}$$
 
+**Correct Answer: 231**
+
 ---
 
 ## **Question 18: Remainder Transfer**
 
-A number when divided by 221 leaves a remainder 30. If the same number is divided by 13, what will be the remainder?
+A number when divided by 221, leaves a remainder 30. If the same number is divided by 13, the remainder will be:
+
+**Options:**
+- [ ] 2
+- [ ] 3
+- [ ] 1
+- [ ] 4
 
 ### Solution:
 
@@ -381,11 +515,19 @@ $$30 = 13 \times 2 + 4$$
 
 **Answer:** $\boxed{4}$
 
+**Correct Answer: 4**
+
 ---
 
 ## **Question 19: Working Backward from Result**
 
-7 is added to a certain number and the sum is multiplied by 5. The product is then divided by 3 and 4 is subtracted from the quotient. If the result is 16, find the original number.
+7 is added to a certain number and the sum is multiplied by 5. The product is then divided by 3 and 4 is subtracted from the quotient. If the result comes to 16, then what is the original number?
+
+**Options:**
+- [ ] 5
+- [ ] 3
+- [ ] 4
+- [ ] 1
 
 ### Solution:
 
@@ -400,11 +542,19 @@ $$5(x + 7) = 60$$
 $$x + 7 = 12$$
 $$x = \boxed{5}$$
 
+**Correct Answer: 5**
+
 ---
 
 ## **Question 20: Multiple Divisibility Conditions**
 
-If the 6-digit numbers x35624 and 1257y4 are divisible by 11 and 72 respectively, find the value of $(5x - 2y)$.
+If the 6-digit numbers x35624 and 1257y4 are divisible by 11 and 72, respectively, then what is the value of (5x - 2y)?
+
+**Options:**
+- [ ] 14
+- [ ] 12
+- [ ] 10
+- [ ] 13
 
 ### Solution:
 
@@ -423,4 +573,4 @@ If the 6-digit numbers x35624 and 1257y4 are divisible by 11 and 72 respectively
 **Step 3:** Calculate $(5x - 2y)$
 $$5(6) - 2(8) = 30 - 16 = \boxed{14}$$
 
----
+**Correct Answer: 14**
