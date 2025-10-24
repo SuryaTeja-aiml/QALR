@@ -1,925 +1,426 @@
-1. The square of the sum of two given natural numbers is 784, while the product of the two given numbers is 192. Find the positive difference between the squares of these two given numbers
+# Division Rule and Divisibility Rules
 
-### Given:
+## **Question 1: Difference Between Squares**
 
-- Square of sum of two numbers = 784→ (a + b)² = 784
-- Product of the numbers = 192→ ab = 192
-- Find: positive difference between their squares → |a² - b²|
+The square of the sum of two given natural numbers is 784, while the product of the two given numbers is 192. Find the positive difference between the squares of these two numbers.
 
----
-
-### Step 1: Find (a + b)
-
-(a + b)² = 784
-
-Take the square root → a + b = 28
-
----
-
-### Step 2: Find (a - b)
-
-Formula: (a + b)² - (a - b)² = 4ab
-
-Rearrange → (a - b)² = (a + b)² - 4ab
-
-Substitute → (a - b)² = 784 - 4(192)
-
-→ (a - b)² = 784 - 768 = 16
-
-→ a - b = 4
-
----
-
-### Step 3: Find the difference between squares
-
-Formula: a² - b² = (a + b)(a - b)
-
-Substitute → a² - b² = 28 × 4 = 112
-
-**Final Answer:** 112
-
----
-
-1. 6^25 + 6^26 + 6^27 + 6^28 is divisible by:
-
-### Step 1: Take common factor
-
-Take 6^25 common from all terms:
-
-= 6^25 (1 + 6 + 6² + 6³)
-
----
-
-### Step 2: Simplify bracket
-
-1 + 6 + 36 + 216 = 259
-
-So expression = 6^25 × 259
-
----
-
-### Step 3: Observe factors
-
-6^25 × 259 → means the whole expression is divisible by 259
-
-**Final Answer: 259**
-
----
-
-1. The largest five digit number exactly divisible by 88 is:
-    
-    99984
-    
-    99990
-    
-    99968
-    
-    99978
-    
-
-**Step 1:** The largest 5-digit number is 99999.
-
-**Step 2:** Divide 99999 by 88 using integer division:
-
-- 88 × 1000 = 88000
-- 88 × 1100 = 96800
-- 88 × 1130 = 99440
-- 88 × 1135 = 99880
-- 88 × 1136 = 99968 ✅
-- 88 × 1137 = 100056 (exceeds 5 digits)
-
-**Step 3:** The largest 5-digit number divisible by 88 is 99968.
-
-**Answer:** 99968
-
----
-
-**Shortcut:** A number divisible by 88 must be divisible by both **8 and 11**. You can quickly verify options using this rule.
-
----
-
-**Step 1: Check divisibility by 8**
-
-- Take the **last 3 digits** of the number. If divisible by 8 → passes.
-
-Options:
-
-1. 99984 → last 3 digits 984 ÷ 8 = 123 ✅
-2. 99990 → 990 ÷ 8 = 123.75 ❌
-3. 99968 → 968 ÷ 8 = 121 ✅
-4. 99978 → 978 ÷ 8 = 122.25 ❌
-
-✅ Passed by 8: **99984, 99968**
-
----
-
-**Step 2: Check divisibility by 11**
-
-- Take **alternate sum of digits**: (sum of 1st, 3rd, 5th) − (sum of 2nd, 4th)
-- If result divisible by 11 → passes
-1. 99984 → (9+9+4) − (9+8) = 22 − 17 = 5 ❌
-2. 99990 → (9+9+0) − (9+9) = 18 − 18 = 0 ✅ (no need to 2nd and 4th option since they failed divisibility 8)
-3. 99968 → (9+9+8) − (9+6) = 26 − 15 = 11 ✅
-4. 99978 → (9+9+8) − (9+7) = 26 − 16 = 10 ❌
-
----
-
-**Step 3: Pick the number that passes both**
-
-✅ **Answer: 99968**
-
----
-
-1. Which number among 24963 , 24973 , 24983 and 24993 is divisible by 7 ?
-    
-    24973
-    
-    24963
-    
-    24993
-    
-    24983
-    
-
-**Step 1: Use the quick 7 trick**
-
-- Take the **last digit**, double it, subtract from the rest of the number.
-- If result divisible by 7 → whole number divisible by 7.
-
----
-
-**Step 2: Check each number**
-
-1. **24963**
-- Last digit = 3 → double = 6
-- Remaining = 2496
-- Subtract: 2496 − 6 = 2490
-- Repeat: last digit 0 → double = 0, 249 − 0 = 249
-- Repeat: last digit 9 → double = 18, 24 − 18 = 6 ❌ Not divisible
-1. **24973**
-- Last digit = 3 → double = 6
-- Remaining = 2497
-- Subtract: 2497 − 6 = 2491
-- Repeat: last digit 1 → double = 2, 249 − 2 = 247
-- 247 ÷ 7 = 35.2857 ❌ Not divisible
-1. **24983**
-- Last digit 3 → double 6, 2498 − 6 = 2492
-- Last digit 2 → double 4, 249 − 4 = 245
-- 245 ÷ 7 = 35 ✅ divisible
-1. **24993**
-- Last digit 3 → double 6, 2499 − 6 = 2493
-- Last digit 3 → double 6, 249 − 6 = 243
-- 243 ÷ 7 = 34.71 ❌ Not divisible
-
-**✅ Answer:** **24983**
-
----
-
-1. An 11-digit number 7823326867X is divisible by 18. What is the value of X ?
-
-**Rule:** A number divisible by 18 → divisible by **2 AND 9**.
-
-**Given number:** 7823326867X
-
----
-
-**Step 1: Divisible by 2**
-
-- Last digit must be **even** → X = 0, 2, 4, 6, 8
-
----
-
-**Step 2: Divisible by 9**
-
-- Sum of all digits must be divisible by 9
-
-Sum of given digits:
-
-7 + 8 + 2 + 3 + 3 + 2 + 6 + 8 + 6 + 7 = 52
-
-So, sum = 52 + X must be divisible by 9
-
----
-
-**Find remainder when 52 is divided by 9**
-
-- 52 ÷ 9 =  ?
-- 5 × 9 = 45
-- Remainder = 52 − 45 = 7
-
-That means, **52 leaves 7 when divided by 9**
-
-We want **sum 52 + X to be divisible by 9**, so remainder should be 0
-
-- Current remainder = 7
-- How much more to reach next multiple of 9? → 9 − 7 = 2
-
-So **X = 2** ✅
-
----
-
-**Step 3: Check divisible by 2**
-
-- X = 2 → even ✅
-
-**✅ Answer:** **2**
-
----
-
-1. In a division sum, the divisor is 13 times the quotient and 6 times the remainder . If the remainder is 39, then the dividend is:
-    
-    4800
-    
-    4576
-    
-    4251
-    
-    4240
-    
+### Solution:
 
 **Given:**
+- $(a + b)^2 = 784$
+- $ab = 192$
 
-- Divisor = 13 × quotient = 6 × remainder
-- Remainder = 39
+**Step 1:** Find $(a + b)$
+$$a + b = \sqrt{784} = 28$$
 
----
-
-**Step 1: Find divisor**
-
-Divisor = 6 × remainder = 6 × 39 = 234 ✅
-
----
-
-**Step 2: Find quotient**
-
-Divisor = 13 × quotient → 234 = 13 × quotient → quotient = 234 ÷ 13 = 18 ✅
-
----
-
-**Step 3: Dividend formula**
-
-Dividend = Divisor × Quotient + Remainder
-
-Dividend = 234 × 18 + 39
-
-- 234 × 18 = 234 × (10 + 8) = 2340 + 1872 = 4212
-- Add remainder 39 → 4212 + 39 = 4251 ✅
-
----
-
-**✅ Answer:** 4251
-
----
-
-1. If the 8-digit number 789x531y is divisible by 72, then the value of (5x - 3y) is:
-
-**Rule:** Number divisible by 72 → divisible by **8 AND 9**
-
-Number: 789x531y
-
----
-
-**Step 1: Divisible by 8**
-
-- Check **last 3 digits** (31y) divisible by 8
-- Last 3 digits = 31y → possible values for y: 0–7 (for divisibility check)
-
-Check multiples of 8 near 310–319:
-
-- 312 ÷ 8 = 39 ✅ → y = 2
-- 320 ÷ 8 = 40 ✅ → y = 0 (but last digit = y = 0 → 310, 311… not 320)
-
-So **y = 2** ✅
-
----
-
-**Step 2: Divisible by 9**
-
-- Sum of digits divisible by 9
-
-Sum of known digits: 7+8+9+5+3+1+2 = 35 + x (don’t forget x in 789x…)
-
-Let’s sum carefully:
-
-7 + 8 + 9 + x + 5 + 3 + 1 + 2 = 35 + x
-
-- Sum must be divisible by 9 → 35 + x ≡ 0 mod 9
-- 35 ÷ 9 = 9×3=27, remainder 8 → 35 ≡ 8 mod 9
-- Need 35 + x divisible by 9 → 8 + x ≡ 0 → x = 1 ✅
-
----
-
-**Step 3: Compute (5x − 3y)**
-
-- x = 1, y = 2
-- 5×1 − 3×2 = 5 − 6 = −1 ✅
-
----
-
-**✅ Answer:** −1
-
----
-
-1. A integer  n  is divided by 7 leaves remainder 3. when the 6 times of the number is divided by 7, the remainder is:
-
----
-
-1. Original remainder: **3**
-2. Operation: Multiply by **6**
-3. New "temporary" result: 3 × 6 = **18**
-4. Find the remainder of that result: 18 ÷ 7 (i.e 7 * 2 = 14, 18 - 14 = 4) leaves a remainder of **4**.
-
-**Answer:** 4 ✅
-
----
-
-1. How many numbers 800 to 2000 are divisible by 13 ?
-
-**Step 1: Find first number ≥ 800 divisible by 13**
-
-- 800 ÷ 13 ≈ 61.53 → next integer = 62
-- First number = 13 × 62 = 806 ✅
-
----
-
-**Step 2: Find last number ≤ 2000 divisible by 13**
-
-- 2000 ÷ 13 ≈ 153.84 → take integer = 153
-- Last number = 13 × 153 = 1989 ✅
-
----
-
-**Step 3: Count numbers divisible by 13**
-
-- Formula: count = (last − first)/13 + 1
-- Count = (1989 − 806)/13 + 1 = 1183/13 + 1 = 91 + 1 = 92 ✅
-
----
-
-**✅ Answer:** 92
-
----
-
-1. By adding 3 and 5 in numerator and denominator of a fraction it becomes 2/3 . If 1 and 3 are subtracted and added from numerator and denominator respectively it becomes 2/5 find the fraction?
-
-Let the fraction be **x/y**
-
-**Step 1: First condition**
-
-(x + 3) / (y + 5) = 2 / 3
-
-Cross multiply:
-
-3 × (x + 3) = 2 × (y + 5)
-
-3x + 9 = 2y + 10
-
-3x − 2y = 1 ✅  …(Equation 1)
-
----
-
-**Step 2: Second condition**
-
-(x − 1) / (y + 3) = 2 / 5
-
-Cross multiply:
-
-5 × (x − 1) = 2 × (y + 3)
-
-5x − 5 = 2y + 6
-
-5x − 2y = 11 ✅  …(Equation 2)
-
----
-
-**Step 3: Solve equations**
-
-Equation 1: 3x − 2y = 1
-
-Equation 2: 5x − 2y = 11
-
-Subtract Equation 1 from Equation 2:
-
-(5x − 2y) − (3x − 2y) = 11 − 1 → 2x = 10 → x = 5 ✅
-
-Plug x = 5 into Equation 1:
-
-3×5 − 2y = 1 → 15 − 2y = 1 → 2y = 14 → y = 7 ✅
-
----
-
-**Answer:** 5/7 ✅
-
----
-
-1. Two positive numbers are in the ratio 8 : 13. If the sum of their squares is 2097, then the sum of the two numbers is :
-
-**Step 1: Let the numbers be**
-
-8k and 13k (since ratio = 8:13)
-
----
-
-**Step 2: Sum of squares given**
-
-(8k)² + (13k)² = 2097
-
-64k² + 169k² = 2097
-
-233k² = 2097
-
----
-
-**Step 3: Solve for k²**
-
-k² = 2097 ÷ 233 = 9 → k = 3 ✅
-
----
-
-**Step 4: Find the numbers**
-
-- First number = 8k = 8×3 = 24
-- Second number = 13k = 13×3 = 39
-
----
-
-**Step 5: Sum of numbers**
-
-24 + 39 = 63 ✅
-
----
-
-**Answer:** 63 ✅
-
----
-
-1. How many two digit numbers are divisible by 3 or 5 ?
-
-**Step 1: Two-digit numbers divisible by 3**
-
-- Smallest two-digit number divisible by 3 = 12
-- Largest = 99
-- Count = (99 − 12)/3 + 1 = 87/3 + 1 = 29 + 1 = 30 ✅
-
----
-
-**Step 2: Two-digit numbers divisible by 5**
-
-- Smallest two-digit number divisible by 5 = 10
-- Largest = 95
-- Count = (95 − 10)/5 + 1 = 85/5 + 1 = 17 + 1 = 18 ✅
-
----
-
-**Step 3: Numbers divisible by both 3 and 5 (i.e., divisible by 15)**
-
-- Smallest = 15
-- Largest = 90
-- Count = (90 − 15)/15 + 1 = 75/15 + 1 = 5 + 1 = 6 ✅
-
----
-
-**Step 4: Use inclusion-exclusion**
-
-Numbers divisible by 3 or 5 = 30 + 18 − 6 = 42 ✅
-
----
-
-**Answer:** 42 ✅
-
----
-
-1. Which of the following numbers is not divisible by 150 ?
-
-**Step 1: Factor 150**
-
-150 = 2 × 3 × 5²
-
-So a number divisible by 150 must be divisible by **2, 3, and 25**
-
----
-
-**Step 2: Check each number**
-
-1. **320550**
-- Ends with 0 → divisible by 2 ✅
-- Sum of digits: 3+2+0+5+5+0 = 15 → divisible by 3 ✅
-- Last two digits 50 → divisible by 25 ✅ ✅
-    
-    ✅ Divisible by 150
-    
-1. **201300**
-- Ends with 0 → divisible by 2 ✅
-- Sum of digits: 2+0+1+3+0+0=6 → divisible by 3 ✅
-- Last two digits 00 → divisible by 25 ✅ ✅
-    
-    ✅ Divisible by 150
-    
-1. **463750**
-- Ends with 0 → divisible by 2 ✅
-- Sum of digits: 4+6+3+7+5+0=25 → not divisible by 3 ❌
-    
-    ❌ Not divisible by 150
-    
-1. **333300**
-- Ends with 0 → divisible by 2 ✅
-- Sum of digits: 3+3+3+3+0+0=12 → divisible by 3 ✅
-- Last two digits 00 → divisible by 25 ✅ ✅
-    
-    ✅ Divisible by 150
-    
-
----
+**Step 2:** Find $(a - b)$ using the identity
+$$(a - b)^2 = (a + b)^2 - 4ab = 784 - 4(192) = 784 - 768 = 16$$
+$$a - b = 4$$
 
-**✅ Answer:** 463750
+**Step 3:** Find $a^2 - b^2$
+$$a^2 - b^2 = (a + b)(a - b) = 28 \times 4 = \boxed{112}$$
 
 ---
 
-1. If a 10-digit number 5432y1749x is divisible by 72, then what is the value of (5x - 4y) ?
+## **Question 2: Divisibility of Sum of Powers**
 
-**Rule:** A number divisible by 72 → divisible by **8 AND 9**
+Determine what $6^{25} + 6^{26} + 6^{27} + 6^{28}$ is divisible by.
 
-Number: 5432y1749x
+### Solution:
 
----
+**Step 1:** Factor out the common term
+$$6^{25}(1 + 6 + 6^2 + 6^3)$$
 
-**Step 1: Divisible by 8**
+**Step 2:** Simplify the bracket
+$$1 + 6 + 36 + 216 = 259$$
 
-- Check **last 3 digits**: 49x must be divisible by 8
-- Last 3 digits = 49x → possible x = 6
+**Step 3:** Final expression
+$$6^{25} \times 259$$
 
-Check: 496 ÷ 8 = 62 ✅
+The expression is divisible by $\boxed{259}$
 
-- So **x = 6** ✅
-
 ---
-
-**Step 2: Divisible by 9**
 
-- Sum of all digits divisible by 9
+## **Question 3: Largest 5-Digit Number Divisible by 88**
 
-Sum of known digits: 5+4+3+2+1+7+4+9+6 = 41 + y
+Find the largest five-digit number exactly divisible by 88.
 
-- Sum must be divisible by 9 → 41 + y divisible by 9
-- 41 ÷ 9 = 4 × 9 = 36 → remainder 5
-- Need 41 + y divisible by 9 → 5 + y ≡ 0 → y = 4 ✅
+**Options:** 99984, 99990, 99968, 99978
 
----
+### Solution:
 
-**Step 3: Compute (5x − 4y)**
+**Step 1:** Check divisibility by 8 (last 3 digits)
+- 99984 → 984 ÷ 8 = 123 ✓
+- 99990 → 990 ÷ 8 = 123.75 ✗
+- 99968 → 968 ÷ 8 = 121 ✓
+- 99978 → 978 ÷ 8 = 122.25 ✗
 
-- x = 6, y = 4
-- 5×6 − 4×4 = 30 − 16 = 14 ✅
-
----
+**Step 2:** Check divisibility by 11 (alternating digit sum)
+- 99984 → (9+9+4) - (9+8) = 22 - 17 = 5 ✗
+- 99968 → (9+9+8) - (9+6) = 26 - 15 = 11 ✓
 
-**✅ Answer:** 14
+**Answer:** $\boxed{99968}$
 
 ---
 
-1. There is a number of two digits the sum of whose digits is 5 , and if 10 times the digit in the place of tens be added to 4 times the digit in the place of units, the number will be inverted. Then the number is:
+## **Question 4: Number Divisible by 7**
 
-**Step 1:** "There is a two-digit number" →
+Which number among 24963, 24973, 24983, and 24993 is divisible by 7?
 
-- Let the **digit in the tens place = x**,
-- Let the **digit in the units place = y**,
-- So the number can be written as “the digit in tens place followed by the digit in units place.”
+**Options:** 24973, 24963, 24993, 24983
 
----
-
-**Step 2:** "The sum of its digits is 5" →
-
-- x + y = 5 ✅
+### Solution:
 
----
+Using the **divisibility rule for 7**: Double the last digit and subtract from the rest.
 
-**Step 3:** "If 10 times the digit in the place of tens plus 4 times the digit in the place of units" →
+**Testing 24983:**
+- Last digit 3 → double = 6, remaining 2498 → 2498 - 6 = 2492
+- Last digit 2 → double = 4, remaining 249 → 249 - 4 = 245
+- $245 ÷ 7 = 35$ ✓
 
-- That is: 10 × (digit in tens place) + 4 × (digit in units place) = 10x + 4y
+**Answer:** $\boxed{24983}$
 
 ---
-
-**Step 4:** "is equal to the inverted number" →
 
-- When we invert, the units digit moves to the tens place,
-so we must also multiply it by 10 to show it’s now in the tens place.
-- Inverted number = digit in units place followed by digit in tens place → 10 × (digit in units place) + (digit in tens place) = 10y + x
+## **Question 5: Missing Digit for Divisibility by 18**
 
----
+An 11-digit number 7823326867X is divisible by 18. What is the value of X?
 
-**Step 5:** Make the equation
+### Solution:
 
-- 10 × (digit in tens place) + 4 × (digit in units place) = 10 × (digit in units place) + (digit in tens place)
-- Substitute x and y: 10x + 4y = 10y + x
+**Rule:** A number is divisible by 18 if divisible by both 2 AND 9.
 
----
+**Step 1:** Divisible by 2
+- Last digit must be even → X ∈ {0, 2, 4, 6, 8}
 
-**Step 6:** Simplify the equation
+**Step 2:** Divisible by 9
+- Sum of digits: $7 + 8 + 2 + 3 + 3 + 2 + 6 + 8 + 6 + 7 = 52$
+- For divisibility by 9: $52 + X ≡ 0 \pmod{9}$
+- $52 ÷ 9$ leaves remainder 7
+- Need: $9 - 7 = 2$
 
-- 10x − x + 4y − 10y = 0 → 9x − 6y = 0 → 3x − 2y = 0 → y = 1.5 × x ✅
+**Answer:** $\boxed{2}$
 
 ---
 
-**Step 7:** Combine with sum of digits
+## **Question 6: Finding the Dividend**
 
-- x + y = 5 → x + 1.5x = 5 → 2.5x = 5 → x = 2
-- Then y = 1.5 × 2 = 3 ✅
+In a division sum, the divisor is 13 times the quotient and 6 times the remainder. If the remainder is 39, find the dividend.
 
----
+**Options:** 4800, 4576, 4251, 4240
 
-**Step 8:** Find the number
+### Solution:
 
-- The number = tens digit followed by units digit = 23 ✅
+**Step 1:** Find the divisor
+$$\text{Divisor} = 6 \times 39 = 234$$
 
----
+**Step 2:** Find the quotient
+$$234 = 13 \times \text{quotient} \Rightarrow \text{quotient} = 18$$
 
-**Answer:** 23 ✅
+**Step 3:** Apply dividend formula
+$$\text{Dividend} = \text{Divisor} \times \text{Quotient} + \text{Remainder}$$
+$$= 234 \times 18 + 39 = 4212 + 39 = \boxed{4251}$$
 
 ---
-
-1. I collected some money by raising subscription for opening a society . If the whole amount collected by 720 currency notes of Rs. 1000 denomination and each person subscribed as many rupees as twice the number of subscribers . then find the number of subscribers.
-
-**Step 1:**
-
-Total money collected = 720 notes of Rs.1000
-
-So, Total = 720 × 1000 = Rs.7,20,000
 
----
+## **Question 7: Finding Digits for Divisibility by 72**
 
-**Step 2:**
+If the 8-digit number 789x531y is divisible by 72, find the value of $(5x - 3y)$.
 
-Let number of subscribers = x
+### Solution:
 
----
+**Rule:** Divisible by 72 → divisible by 8 AND 9
 
-**Step 3:**
+**Step 1:** Divisible by 8 (check last 3 digits)
+- Last 3 digits: 31y → 312 ÷ 8 = 39 ✓
+- Therefore, $y = 2$
 
-Each person subscribed as many rupees as **twice the number of subscribers**
+**Step 2:** Divisible by 9 (sum of digits)
+- Known digits sum: $7 + 8 + 9 + 5 + 3 + 1 + 2 = 35 + x$
+- For divisibility by 9: $35 + x ≡ 0 \pmod{9}$
+- $35 ÷ 9$ leaves remainder 8
+- Therefore, $x = 1$
 
-So, each person gave = 2x rupees
+**Step 3:** Calculate $(5x - 3y)$
+$$5(1) - 3(2) = 5 - 6 = \boxed{-1}$$
 
 ---
-
-**Step 4:**
 
-Total money = (amount given by each) × (number of subscribers)
+## **Question 8: Remainder After Multiplication**
 
-=> 7,20,000 = 2x × x
+A number n when divided by 7 leaves remainder 3. When 6 times the number is divided by 7, what is the remainder?
 
-=> 7,20,000 = 2x²
+### Solution:
 
----
+**Step 1:** Original remainder = 3
 
-**Step 5:**
+**Step 2:** Multiply the remainder by 6
+$$3 \times 6 = 18$$
 
-x² = 7,20,000 ÷ 2 = 3,60,000
+**Step 3:** Find remainder when 18 is divided by 7
+$$18 ÷ 7 = 2 \text{ remainder } 4$$
 
-x = √3,60,000 = 600
+**Answer:** $\boxed{4}$
 
 ---
 
-**Final Answer:**
+## **Question 9: Count of Numbers Divisible by 13**
 
-Number of subscribers = **600** ✅
+How many numbers between 800 and 2000 are divisible by 13?
 
----
+### Solution:
 
-1. Simplify : 264 - [ 142 - { 75 + ( 38 - ( 5/4 + 11/4 ) ) } ]
+**Step 1:** Find first number ≥ 800 divisible by 13
+$$800 ÷ 13 ≈ 61.53 \Rightarrow \text{First} = 13 \times 62 = 806$$
 
-**Expression:**
+**Step 2:** Find last number ≤ 2000 divisible by 13
+$$2000 ÷ 13 ≈ 153.84 \Rightarrow \text{Last} = 13 \times 153 = 1989$$
 
-264 - [ 142 - { 75 + ( 38 - ( 5/4 + 11/4 ) ) } ]
+**Step 3:** Count using formula
+$$\text{Count} = \frac{1989 - 806}{13} + 1 = \frac{1183}{13} + 1 = 91 + 1 = \boxed{92}$$
 
 ---
-
-**Step 1:** Simplify inside the smallest brackets
-
-(5/4 + 11/4) = 16/4 = 4
 
----
+## **Question 10: Finding a Fraction**
 
-**Step 2:** Substitute back
+By adding 3 and 5 to the numerator and denominator of a fraction respectively, it becomes 2/3. If 1 is subtracted from the numerator and 3 is added to the denominator, it becomes 2/5. Find the original fraction.
 
-→ 264 - [ 142 - { 75 + ( 38 - 4 ) } ]
+### Solution:
 
-38 - 4 = 34
+Let the fraction be $\frac{x}{y}$.
 
----
+**Step 1:** First condition
+$$\frac{x + 3}{y + 5} = \frac{2}{3}$$
+$$3(x + 3) = 2(y + 5)$$
+$$3x - 2y = 1 \quad \text{...(1)}$$
 
-**Step 3:**
+**Step 2:** Second condition
+$$\frac{x - 1}{y + 3} = \frac{2}{5}$$
+$$5(x - 1) = 2(y + 3)$$
+$$5x - 2y = 11 \quad \text{...(2)}$$
 
-→ 264 - [ 142 - { 75 + 34 } ]
+**Step 3:** Solve by subtraction
+$$(2) - (1): 2x = 10 \Rightarrow x = 5$$
+$$\text{From (1): } 15 - 2y = 1 \Rightarrow y = 7$$
 
-75 + 34 = 109
+**Answer:** $\boxed{\frac{5}{7}}$
 
 ---
-
-**Step 4:**
 
-→ 264 - [ 142 - 109 ]
+## **Question 11: Sum of Numbers in a Ratio**
 
-142 - 109 = 33
+Two positive numbers are in the ratio 8:13. If the sum of their squares is 2097, find the sum of the two numbers.
 
----
+### Solution:
 
-**Step 5:**
+**Step 1:** Express numbers in ratio
+- Let the numbers be $8k$ and $13k$
 
-→ 264 - 33 = **231**
+**Step 2:** Use the condition
+$$(8k)^2 + (13k)^2 = 2097$$
+$$64k^2 + 169k^2 = 2097$$
+$$233k^2 = 2097$$
+$$k^2 = 9 \Rightarrow k = 3$$
 
----
+**Step 3:** Find the numbers
+- First number: $8 \times 3 = 24$
+- Second number: $13 \times 3 = 39$
 
-✅ **Final Answer = 231**
+**Step 4:** Sum
+$$24 + 39 = \boxed{63}$$
 
 ---
-
-1. A number when divided by 221, leaves a remainder 30. If the same number is divided by 13, the remainder will be:
 
-### Question says:
+## **Question 12: Count Two-Digit Numbers**
 
-> A number when divided by 221 leaves remainder 30.
-> 
-> 
-> That means:
-> 
-> **Number = (221 × some number) + 30**
-> 
+How many two-digit numbers are divisible by 3 or 5?
 
-Let’s call that “some number” = k
+### Solution:
 
-So, **Number = 221k + 30**
+**Step 1:** Divisible by 3
+- Count = $\frac{99 - 12}{3} + 1 = 30$
 
----
+**Step 2:** Divisible by 5
+- Count = $\frac{95 - 10}{5} + 1 = 18$
 
-### Now we divide that same number by 13.
+**Step 3:** Divisible by both 3 and 5 (i.e., by 15)
+- Count = $\frac{90 - 15}{15} + 1 = 6$
 
-So we divide:
+**Step 4:** Inclusion-Exclusion Principle
+$$30 + 18 - 6 = \boxed{42}$$
 
-**(221k + 30) ÷ 13**
-
 ---
-
-### Step 1: Split into two parts
 
-We can split it like:
+## **Question 13: Number NOT Divisible by 150**
 
-- (221k ÷ 13)
-- (30 ÷ 13)
+Which of the following numbers is NOT divisible by 150?
 
-Because division distributes like that for remainders.
+**Options:** 320550, 201300, 463750, 333300
 
----
-
-### Step 2: See if 221 is divisible by 13
+### Solution:
 
-13 × 17 = 221
+**Rule:** Divisible by 150 requires divisibility by 2, 3, and 25.
 
-→ So **221** divides perfectly by **13** (no remainder).
+**Testing 463750:**
+- Divisible by 2? Last digit 0 ✓
+- Divisible by 3? Sum = 4+6+3+7+5+0 = 25 ✗ (not divisible by 3)
+- Therefore, NOT divisible by 150
 
-That means **(221k ÷ 13)** gives **0 remainder** always.
+**Answer:** $\boxed{463750}$
 
 ---
 
-### Step 3: Only 30 part matters now
+## **Question 14: Finding Digits for Divisibility by 72**
 
-Since the 221k part gives remainder 0,
+If a 10-digit number 5432y1749x is divisible by 72, what is the value of $(5x - 4y)$?
 
-we just need the remainder when **30 ÷ 13**.
-
----
+### Solution:
 
-### Step 4: Divide 30 by 13 normally
+**Rule:** Divisible by 72 → divisible by 8 AND 9
 
-13 × 2 = 26
+**Step 1:** Divisible by 8 (check last 3 digits)
+- Last 3 digits: 49x → 496 ÷ 8 = 62 ✓
+- Therefore, $x = 6$
 
-Subtract: 30 - 26 = 4
+**Step 2:** Divisible by 9 (sum of digits)
+- Known digits sum: $5+4+3+2+1+7+4+9+6 = 41 + y$
+- $41 ÷ 9$ leaves remainder 5
+- Need: $y = 4$
 
-So remainder = 4
+**Step 3:** Calculate $(5x - 4y)$
+$$5(6) - 4(4) = 30 - 16 = \boxed{14}$$
 
 ---
 
-✅ **Final Answer: 4**
+## **Question 15: Two-Digit Number with Inverted Property**
 
----
+A two-digit number has digit sum 5. If 10 times the tens digit plus 4 times the units digit equals the inverted number, find the number.
 
-1. 7 is added to a certain number and the sum is multiplied by 5 . The product is then divided by 3 and 4 is subtracted from the quotient . If the result comes to 16, then what is the original number?
+### Solution:
 
-**Step 1:** “7 is added to a certain number” →
+Let tens digit = $x$, units digit = $y$
 
-Let the number = x
+**Step 1:** Sum condition
+$$x + y = 5 \quad \text{...(1)}$$
 
-So, after adding 7 → x + 7
-
----
+**Step 2:** Inversion condition
+$$10x + 4y = 10y + x$$
+$$9x - 6y = 0$$
+$$y = 1.5x \quad \text{...(2)}$$
 
-**Step 2:** “The sum is multiplied by 5” →
+**Step 3:** Solve
+$$x + 1.5x = 5$$
+$$2.5x = 5 \Rightarrow x = 2$$
+$$y = 3$$
 
-(x + 7) × 5 = 5(x + 7)
+**Answer:** $\boxed{23}$
 
 ---
 
-**Step 3:** “The product is then divided by 3” →
-
-[5(x + 7)] ÷ 3 = (5(x + 7))/3
-
----
+## **Question 16: Society Subscription Problem**
 
-**Step 4:** “4 is subtracted from the quotient” →
+A society collects money through subscriptions. The total collected is 720 currency notes of Rs. 1000. Each person subscribes as many rupees as twice the number of subscribers. Find the number of subscribers.
 
-(5(x + 7))/3 − 4
+### Solution:
 
----
+**Step 1:** Total amount
+$$\text{Total} = 720 \times 1000 = 720,000 \text{ Rs.}$$
 
-**Step 5:** “If the result comes to 16” →
+**Step 2:** Set up equation
+- Number of subscribers = $x$
+- Each person subscribes = $2x$ rupees
 
-(5(x + 7))/3 − 4 = 16
+**Step 3:** Form equation
+$$x \times 2x = 720,000$$
+$$2x^2 = 720,000$$
+$$x^2 = 360,000$$
+$$x = \sqrt{360,000} = \boxed{600}$$
 
 ---
 
-**Step 6:** Solve for x
+## **Question 17: Simplify Complex Expression**
 
-(5(x + 7))/3 = 16 + 4
+Simplify: $264 - [142 - \{75 + (38 - (\frac{5}{4} + \frac{11}{4}))\}]$
 
-(5(x + 7))/3 = 20
+### Solution:
 
-Multiply both sides by 3 → 5(x + 7) = 60
+**Step 1:** Innermost brackets
+$$\frac{5}{4} + \frac{11}{4} = \frac{16}{4} = 4$$
 
-Divide by 5 → x + 7 = 12
+**Step 2:** Next level
+$$38 - 4 = 34$$
 
-x = 12 − 7 = 5
+**Step 3:** Continue outward
+$$75 + 34 = 109$$
 
----
+**Step 4:** Next
+$$142 - 109 = 33$$
 
-✅ **Answer:** Original number = 5
+**Step 5:** Final
+$$264 - 33 = \boxed{231}$$
 
 ---
 
-1. If the 6-digit numbers x35624 and 1257y4 are divisible by 11 and 72, respectively, then what is the value of (5x - 2y)?
+## **Question 18: Remainder Transfer**
 
-### Step 1: First number x35624 divisible by 11
+A number when divided by 221 leaves a remainder 30. If the same number is divided by 13, what will be the remainder?
 
-**Rule:** A number is divisible by 11 → difference of sum of digits in odd and even positions is divisible by 11.
+### Solution:
 
-Number = x 3 5 6 2 4
+**Step 1:** Express the number
+$$\text{Number} = 221k + 30$$
 
-- Odd positions (1,3,5) → x + 5 + 2 = x + 7
-- Even positions (2,4,6) → 3 + 6 + 4 = 13
+**Step 2:** Divide by 13
+$$\frac{221k + 30}{13}$$
 
-Difference = (x + 7) − 13 = x − 6
+**Step 3:** Check if 221 is divisible by 13
+$$221 = 13 \times 17 \text{ (exactly)}$$
 
-- For divisibility by 11 → x − 6 must be multiple of 11
-- Smallest positive x = 6 + 0 = 6 ✅
-- Check next 11 → x = 17 (not a digit) ❌
+**Step 4:** Find remainder of 30 by 13
+$$30 = 13 \times 2 + 4$$
 
-**So, x = 6** ✅
+**Answer:** $\boxed{4}$
 
 ---
-
-### Step 2: Second number 1257y4 divisible by 72
 
-**Rule:** Divisible by 72 → divisible by **8 and 9**
+## **Question 19: Working Backward from Result**
 
-### Step 2a: Divisible by 8 → last 3 digits divisible by 8
+7 is added to a certain number and the sum is multiplied by 5. The product is then divided by 3 and 4 is subtracted from the quotient. If the result is 16, find the original number.
 
-Last 3 digits = 7 y 4 → 7y4
+### Solution:
 
-- Try digits 0–9 for y such that 7y4 divisible by 8
+Let the number = $x$
 
-Check quickly:
+**Step 1:** Build the equation
+$$\frac{5(x + 7)}{3} - 4 = 16$$
 
-- 704 ÷ 8 = 88 ✅ → y = 0
-- 714 ÷ 8 = 89.25 ❌
-- 724 ÷ 8 = 90.5 ❌
-- 734 ÷ 8 = 91.75 ❌
-- 744 ÷ 8 = 93 ✅ → y = 4
-- 754 ÷ 8 = 94.25 ❌
-- 764 ÷ 8 = 95.5 ❌
-- 774 ÷ 8 = 96.75 ❌
-- 784 ÷ 8 = 98 ✅ → y = 8
-- 794 ÷ 8 = 99.25 ❌
+**Step 2:** Solve
+$$\frac{5(x + 7)}{3} = 20$$
+$$5(x + 7) = 60$$
+$$x + 7 = 12$$
+$$x = \boxed{5}$$
 
-So possible y = 0, 4, 8
-
 ---
-
-### Step 2b: Divisible by 9 → sum of digits divisible by 9
 
-Number = 1 2 5 7 y 4 → sum = 1+2+5+7+4 + y = 19 + y
+## **Question 20: Multiple Divisibility Conditions**
 
-- 19 + y divisible by 9 → check possible y:
-    - y = 0 → 19 → not divisible by 9 ❌
-    - y = 4 → 19+4=23 → not divisible by 9 ❌
-    - y = 8 → 19+8=27 → divisible by 9 ✅
+If the 6-digit numbers x35624 and 1257y4 are divisible by 11 and 72 respectively, find the value of $(5x - 2y)$.
 
-**So, y = 8** ✅
+### Solution:
 
----
+**Step 1:** Find x (divisibility by 11)
+- Odd positions: $x + 5 + 2 = x + 7$
+- Even positions: $3 + 6 + 4 = 13$
+- Difference: $(x + 7) - 13 = x - 6$ must be divisible by 11
+- Therefore, $x = 6$
 
-### Step 3: Compute 5x − 2y
+**Step 2:** Find y (divisibility by 72 = 8 × 9)
+- Last 3 digits (31y): 704 ÷ 8 = 88, 784 ÷ 8 = 98 → possible y: 0, 4, 8
+- Sum of digits: $1 + 2 + 5 + 7 + y + 4 = 19 + y$
+- For divisibility by 9: $19 + 8 = 27$ ✓
+- Therefore, $y = 8$
 
-- x = 6, y = 8
-- 5×6 − 2×8 = 30 − 16 = 14 ✅
+**Step 3:** Calculate $(5x - 2y)$
+$$5(6) - 2(8) = 30 - 16 = \boxed{14}$$
 
 ---
-
-✅ **Answer:** 14
