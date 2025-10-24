@@ -1,4 +1,4 @@
-# Division Rule and Divisibility Rules — (Expanded step-by-step, one-line steps with emojis)
+# Division Rule and Divisibility Rules
 
 ## Question 1: Difference Between Squares
 The square of the sum of two given natural numbers is 784, while the product of the two given numbers is 192. Find the positive difference between the squares of these two numbers.
