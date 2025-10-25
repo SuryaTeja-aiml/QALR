@@ -1,44 +1,275 @@
-## Difference of squares
-$a^2 - b^2 = (a - b)(a + b)$
+## 🔹 MOD & DIVISION
 
-***
+**MOD** = Find the remainder when one number divides another
 
-## Square of sum
-$(a + b)^2 = a^2 + b^2 + 2ab$
+Notation: `a mod m = remainder when a ÷ m`
 
-***
+### Division Algorithm
+```
+N = d × q + r
+```
+- **N** = Dividend (number being divided)
+- **d** = Divisor (dividing by this)
+- **q** = Quotient (how many times)
+- **r** = Remainder (what's left)
+- **Constraint:** 0 ≤ r < d
 
-## Square of difference
-$(a - b)^2 = a^2 + b^2 - 2ab$
+---
 
-***
+## 🔹 ALGEBRAIC IDENTITIES
 
-## Sum of squares with ratio
-$(xk)^2 + (yk)^2 = k^2(x^2 + y^2)$
+### Difference of Squares
+```
+a² - b² = (a + b)(a - b)
+```
 
-Here are those formulas in Markdown format with LaTeX:
+### Perfect Square Expansion
+```
+(a + b)² = a² + 2ab + b²
+(a - b)² = a² - 2ab + b²
+```
 
-## Factorization / Division Formulas
+### Key Identity for Differences
+```
+(a - b)² = (a + b)² - 4ab
+```
 
-**Dividend formula:**
-$\text{Dividend } N = (\text{Divisor } d \times \text{Quotient } q) + \text{Remainder } r$
+---
 
-***
+## 🔹 DIVISIBILITY RULES
 
-**Remainder transfer (modular arithmetic):**
-$\text{If } N \equiv r \pmod d, \text{ remainder on dividing by factor } f \text{ can be found using } r \mod f$
+| Rule | Condition |
+|------|-----------|
+| **2** | Last digit is even |
+| **3** | Sum of digits divisible by 3 |
+| **5** | Last digit is 0 or 5 |
+| **8** | Last 3 digits divisible by 8 |
+| **9** | Sum of digits divisible by 9 |
+| **11** | (Odd position sum) - (Even position sum) divisible by 11 |
+| **25** | Last 2 digits: 00, 25, 50, or 75 |
 
-***
+### Composite Divisibility
+For composite numbers, decompose into coprime factors:
+- 18 = 2 × 9
+- 72 = 8 × 9
+- 150 = 2 × 3 × 25
+- 88 = 8 × 11
 
-**Counting multiples in a range:**
-$\text{Count of multiples of n from } a \text{ to } b = \left\lfloor \frac{b}{n} \right\rfloor - \left\lceil \frac{a}{n} \right\rceil + 1$
-Here are those items in Markdown format with LaTeX:
+---
 
-## Factorization / Powers
+## 🔹 COUNTING & ARITHMETIC PROGRESSIONS
 
-**Factor common powers:**
-$a^m + a^{m+1} + a^{m+2} + \dots = a^m(1 + a + a^2 + \dots)$
+### Count of Multiples in Range
+```
+Count = ⌊(Last - First) / d⌋ + 1
+```
 
-Evaluate sum inside brackets, multiply by common factor.
+### First Multiple ≥ a
+```
+First = ⌈a / d⌉ × d
+```
 
-***
+### Last Multiple ≤ b
+```
+Last = ⌊b / d⌋ × d
+```
+
+---
+
+## 🔹 INCLUSION-EXCLUSION PRINCIPLE
+
+```
+Count(A or B) = Count(A) + Count(B) - Count(A and B)
+```
+
+For divisibility by multiple conditions
+
+---
+
+## 🔹 RATIO & PROPORTION
+
+### Setup
+If two numbers are in ratio a:b:
+```
+Numbers = ak and bk
+```
+
+### How to Solve
+1. Express numbers as **ak** and **bk** (where k is constant)
+2. Use given condition to form equation
+3. Solve for k
+4. Calculate both numbers: a×k and b×k
+5. Find required answer (sum, product, etc.)
+
+### Example
+Numbers in ratio 8:13, sum of squares = 2097
+- Let numbers = 8k and 13k
+- (8k)² + (13k)² = 2097
+- 64k² + 169k² = 2097
+- 233k² = 2097
+- k² = 9 → k = 3
+- Numbers: 8(3) = 24 and 13(3) = 39
+
+---
+
+## 🔹 SYSTEM OF LINEAR EQUATIONS
+
+Two equations in two unknowns:
+```
+a₁x + b₁y = c₁
+a₂x + b₂y = c₂
+```
+
+### Solve by Elimination:
+1. Multiply equations to eliminate one variable
+2. Subtract equations
+3. Solve for remaining variable
+4. Substitute back
+
+### Solve by Substitution:
+1. Express one variable in terms of other
+2. Substitute into second equation
+3. Solve
+4. Find second variable
+
+---
+
+## 🔹 DIGIT REPRESENTATION
+
+### Two-digit Number
+```
+Number = 10a + b
+```
+- a = tens digit
+- b = units digit
+
+### Inverted Two-digit Number
+```
+Inverted = 10b + a
+```
+- Units digit becomes tens digit (multiply by 10)
+- Tens digit becomes units digit (stays as is)
+
+### Multi-digit Numbers
+Use positional values for each digit position
+
+---
+
+## 🔹 QUADRATIC EQUATIONS
+
+### From Given Conditions:
+```
+ax² + bx + c = 0
+```
+
+Solve using:
+- Factorization
+- Completing the square
+- Formula (if needed)
+
+---
+
+## 🔹 FRACTION OPERATIONS
+
+### Addition
+```
+a/b + c/d = (ad + bc)/(bd)
+```
+
+### Cross Multiplication
+```
+a/b = c/d  ⟹  ad = bc
+```
+
+### Simplification
+```
+(x + a)/(y + b) = p/q  ⟹  q(x + a) = p(y + b)
+```
+
+---
+
+## 🔹 PRIME FACTORIZATION
+
+Decompose numbers into prime factors to understand divisibility properties
+
+Example: 221 = 13 × 17
+
+---
+
+## 🔹 MODULAR ARITHMETIC PROPERTIES
+
+### Addition
+```
+(a + b) mod m = [(a mod m) + (b mod m)] mod m
+```
+
+### Multiplication
+```
+(a × b) mod m = [(a mod m) × (b mod m)] mod m
+```
+
+### Congruence
+```
+a ≡ b (mod m)  ⟹  a = mk + b
+```
+
+---
+
+## 🔹 ALGEBRAIC FACTORIZATION
+
+### Factor Common Terms
+```
+a·x + a·y = a(x + y)
+```
+
+### Geometric Series
+```
+1 + a + a² + a³ = (a⁴ - 1)/(a - 1)
+```
+
+---
+
+## 🔹 ORDER OF OPERATIONS (BODMAS)
+
+1. **B**rackets / Parentheses
+2. **O**rders / Exponents
+3. **D**ivision & **M**ultiplication (left to right)
+4. **A**ddition & **S**ubtraction (left to right)
+
+---
+
+## 🔹 SQUARE ROOTS & POWERS
+
+```
+√x = y  where y² = x
+```
+
+Extract: Find prime factors and pair them
+
+---
+
+## 🔹 BASIC ARITHMETIC FORMULAS
+
+### Sum of Digits in Range
+Count and add digit by digit
+
+### Average
+```
+Average = Sum / Count
+```
+
+### Percentage
+```
+x% of n = (x/100) × n
+```
+
+---
+
+## ✅ VERIFICATION CHECKLIST
+
+- ✓ N = d × q + r (for division)?
+- ✓ 0 ≤ r < d (for remainder)?
+- ✓ All arithmetic correct?
+- ✓ Answer in required form?
+
+---
