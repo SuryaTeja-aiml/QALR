@@ -96,6 +96,26 @@ Powers of digits follow repeating cycles. Instead of computing huge powers, use 
 **Example:** For 7^95 − 3^13758
 - 7^95 has unit digit: 3
 - 3^13758 has unit digit: 9
+```
+Look at the first few powers of 3:
+3^1 → 3
+3^2 → 9
+3^3 → 7
+3^4 → 1
+3^5 → 3 (pattern repeats)
+So the unit digits repeat every 4 powers:
+3 → 9 → 7 → 1 → 3 → 9 → 7 → 1 …
+Divide the exponent by 4
+We check where 13758 falls in the cycle:
+13758 ÷ 4 = 3439 remainder 2
+Step 3: Map remainder to the pattern
+The pattern:
+1 → 3
+2 → 9
+3 → 7
+0 → 1
+Remainder 2 → unit digit is 9 ✅
+```
 - Difference: 3 − 9 = −6
 - Add 10: −6 + 10 = **4**
 
