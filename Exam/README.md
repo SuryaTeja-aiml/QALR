@@ -6,7 +6,13 @@
 ### 📐 Formula
 - Prime factorization: N = p₁^a × p₂^b × p₃^c
 - Total divisors = (a+1)(b+1)(c+1)
-
+```
+why +1
+we are including power of 0 too,
+example: 2^0 = 1 & 2^1 = 2
+here, a+1 = (2 power is 1) 1 + 1 = 2
+we have 2 divisors 1 and 2
+```
 ### 🎯 How To Solve
 1. Find prime factorization of 18
 2. Raise powers to 4th power
