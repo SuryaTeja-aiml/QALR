@@ -192,4 +192,88 @@ A certain sum of money becomes 5 times in 15 years when invested at simple inter
 * (A) 40 years 6 months
 * (B) 39 years 9 months
 * (C) 41 years 3 months
-* (D) 42 years 4 months 
+* (D) 42 years 4 months
+
+## Problem 29: Average Earning
+The average earning of a mechanic for the first-four days of a week is Rs. 18 and for the last four days is Rs. 22. If he earns Rs. 20 on the fourth day, his average earning for the whole week is
+* (A) Rs. 18.95
+* (B) Rs. 16
+* (C) Rs. 25.71
+* (D) Rs. 20
+
+## Problem 30: Average Salary with Manager
+The average salary of 20 workers in an office is Rs. 1900 per month. If the manager's salary is added, the average salary becomes Rs. 2000 p.m. What is the manager's annual salary?
+* (A) Rs. 24000
+* (B) Rs. 25200
+* (C) Rs. 45600
+* (D) None of these
+
+## Problem 31: Average Age Problem
+The total age of 90 students is 2700 years. The average age of 50 students is 30 years and that of another 30 students is 28 years. Find the average age of the remaining students.
+* (A) 39
+* (B) 38
+* (C) 32
+* (D) 36
+
+## Problem 32: Consecutive Integers
+The average of 5 consecutive integers is 18. What is 2B + 4D - 75, where B and D are the 2nd and 4th numbers?
+* (A) 35
+* (B) 37
+* (C) 36
+* (D) 38
+
+## Problem 33: Profit and Loss
+A loss of 20% is made by selling an article. Had it been sold for Rs 240 more, there would have been a profit of 10%. What would be the selling price of the article if it is sold at 25% profit
+* (A) Rs.1040
+* (B) Rs.1080
+* (C) Rs.960
+* (D) Rs.1000
+
+## Problem 34: Mixture Problem
+A dealer blends 50 kg of tea costing Rs. 80 per kg with 30 kg of tea costing Rs. 100 per kg, and sells the mixture at Rs. 90 per kg. What is the profit or loss percent?
+* (A) 5%
+* (B) 2.86%
+* (C) 4%
+* (D) 1%
+
+## Problem 35: Cost Price Calculation
+By selling a dress for ₹750 more, a seller would have gained 15% instead of losing 5%. What was the cost price?
+* (A) Rs. 3750
+* (B) Rs. 4750
+* (C) Rs. 5000
+* (D) Rs. 4000
+
+## Problem 36: Mixture Profit/Loss
+A merchant mixes 36 kg of pulses at Rs. 45 per kg with 24 kg at Rs. 60 per kg, and sells the mixture at Rs. 52 per kg. Calculate the gain or loss percentage.
+* (A) 1.96%
+* (B) 5%
+* (C) 7%
+* (D) 9%
+
+## Problem 37: Salary Comparison
+A man received 8,80,000 as his annual salary of the year 2007 which was 10% more than his annual salary in 2006. His annual salary in the year 2006 was:
+* (A) 8,40,000
+* (B) 4,80,000
+* (C) 4,00,000
+* (D) 8,00,000
+
+## Problem 38: Percentage Relationship
+If 15% of (A + B) = 25% of (A - B), then what per cent of B is equal to A?
+* (A) 200%
+* (B) 10%
+* (C) 400%
+* (D) 60%
+
+## Problem 39: Election Problem
+In an election 10% of the voters on the voters' list did not cast their votes and 60 voters cast their ballot papers blank. There were only two candidates. The winner was supported by 47% of all the voters in the list and he got 308 votes more than his rival. The number of voters on the list was:
+* (A) 6200
+* (B) 4575
+* (C) 3600
+* (D) 6028
+
+## Problem 40: Percentage Equation
+If 50% of P = 25% of Q, then P = x% of Q. Find x.
+* (A) 2
+* (B) 0.005
+* (C) 50
+* (D) 0.5
